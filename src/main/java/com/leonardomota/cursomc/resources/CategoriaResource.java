@@ -11,7 +11,7 @@ import com.leonardomota.cursomc.domain.Categoria;
 import com.leonardomota.cursomc.services.CategoriaService;
 
 @RestController
-@RequestMapping(value="/categorias")
+@RequestMapping(value="/cursomc/categorias")
 public class CategoriaResource {
 	
 	@Autowired
